@@ -2,6 +2,7 @@ import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
+import 'package:rive_demo/state_machine_demo.dart';
 
 class TapAnimationScreen extends StatefulWidget {
   const TapAnimationScreen({
@@ -32,6 +33,7 @@ class _TapAnimationScreenState extends State<TapAnimationScreen> {
   @override
   void initState() {
     super.initState();
+    color = Colors.white;
     controller = OneShotAnimation(
       'Scale',
       autoplay: false,
@@ -64,6 +66,14 @@ class _TapAnimationScreenState extends State<TapAnimationScreen> {
               riveFilePath,
               controllers: [controller],
             ),
+          ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () => Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const StateMachineDemoNumber(),
           ),
         ),
       ),
