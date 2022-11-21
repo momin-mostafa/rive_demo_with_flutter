@@ -1,16 +1,17 @@
 # rive_demo
 
-A new Flutter project.
+This project is to demonstrate how to implement [rive](https://rive.app) in flutter application for smooth animations. And use statemachine to control the animations with [GestureDetector](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html). Initial page will have animation with only one state. Second page would contain animaiton with multiple animation and statemachine.
 
-## Getting Started
+## Used in project
 
-This project is a starting point for a Flutter application.
+[![Flutter][flutter.dev]][Rive-Url]
+[![Rive][rive.app]][Rive-Url]
 
-A few resources to get you started if this is your first Flutter project:
+### How to run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
