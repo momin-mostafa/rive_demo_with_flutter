@@ -4,8 +4,8 @@ This project is to demonstrate how to implement [rive](https://rive.app) in flut
 
 ## Used in project
 
-[![Flutter][flutter.dev]][Rive-Url]
-[![Rive][rive.app]][Rive-Url]
+* [![Flutter][flutter.dev]][Rive-Url]
+* [![Rive][rive.app]][Rive-Url]
 
 ### How to run
 
